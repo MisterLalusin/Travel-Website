@@ -1,0 +1,2 @@
+the zoom in, zoom out feature was just used during development for the adjustable viewport
+~ John Rovic D. Lalusin

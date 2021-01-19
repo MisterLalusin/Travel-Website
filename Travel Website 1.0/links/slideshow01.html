@@ -1,0 +1,30 @@
+<!--Coded by John Rovic Lalusin on September 5, 2017 Last Modified on September 18, 2017-->
+<html>
+ <head>
+  <title>TRAVEL WEBSITE</title>
+  <link rel="stylesheet" href="../layout/layout02.css">
+ </head>
+  <body style="margin:0;padding:0;position:absolute;left:0;right:0;margin:auto;max-width:1000;">
+   <div>
+    <img class="myslides" src="../images/slideshow01.png" style="position:fixed;width:100%;padding-left:0%;padding-right:0%;">
+    <img class="myslides" src="../images/slideshow02.png" style="position:fixed;width:100%;padding-left:0%;padding-right:0%;">
+    <img class="myslides" src="../images/slideshow03.png" style="position:fixed;width:100%;padding-left:0%;padding-right:0%;">
+   </div>
+   <script>
+   var myIndex = 0;
+   carousel();
+
+   function carousel() {
+   var i;
+   var x = document.getElementsByClassName("myslides");
+   for (i = 0; i < x.length; i++) {
+   x[i].style.display = "none";  
+   }
+   myIndex++;
+   if (myIndex > x.length) {myIndex = 1}    
+   x[myIndex-1].style.display = "block";  
+   setTimeout(carousel, 2000);
+   }
+   </script>
+  </body>
+</html> 

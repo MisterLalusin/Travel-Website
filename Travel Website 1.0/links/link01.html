@@ -1,0 +1,27 @@
+<!--Coded by John Rovic Lalusin on July 23, 2017 Last Modified on September 10, 2017-->
+<html>
+ <head>
+  <title>TRAVEL WEBSITE</title>
+  <link rel="stylesheet" href="../layout/layout01.css">
+ </head>
+  <body>
+   <div class="arrow01"><img src="../icons/arrow01.gif"></div>
+   <div class="banner01"><img src="../images/banner01.gif"></div>  
+   <span id="loadinghome01">Homepage Loading</span>   
+   <span id="wait">.</span>
+   <script>
+   var dots = window.setInterval( function() {
+   var wait = document.getElementById("wait");
+   if ( wait.innerHTML.length > 6 ) 
+        wait.innerHTML = "";
+   else 
+        wait.innerHTML += ".";
+    }, 300);
+  </SCRIPT> 
+   <SCRIPT>
+     var timer = setTimeout(function() {
+     window.location='link02.html'
+    }, 6000);
+   </script>
+  </body>
+</html> 

@@ -1,0 +1,34 @@
+<!--Coded by John Rovic Lalusin on September 9, 2017 Last Modified on September 10, 2017-->
+<html>
+ <head>
+  <title>TRAVEL WEBSITE</title>
+  <link rel="stylesheet" href="../layout/layout02.css">
+ </head>
+  <body>
+   <div>
+   <center>
+    <tt>Developer's Team:</tt>
+    <p class="myslides"><span style="position:absolute;top:70;right:350;margin:auto;"><i>Joyce Sto. Domingo</i></span><a href="http://www.facebook.com/100006258075495" target="_blank"><img src="../images/developers01.png" style="position:relative;width:80;padding-left:0%;padding-right:0%;"></a><span style="position:absolute;top:70;left:345;margin:auto;"><i>Web Designer/Programmer</i></span></p>
+    <p class="myslides"><span style="position:absolute;top:70;right:350;margin:auto;"><i>Rob Ashley Odulio</i></span><a href="http://www.facebook.com/r.a.odulio" target="_blank"><img src="../images/developers02.png" style="position:relative;width:80;padding-left:0%;padding-right:0%;"></a><span style="position:absolute;top:70;left:345;margin:auto;"><i>Web Programmer/Coordinator</i></span></p>
+    <p class="myslides"><span style="position:absolute;top:70;right:350;margin:auto;"><i>John Rovic Lalusin</i></span><a href="http://www.facebook.com/cuyajeh.750" target="_blank"><img src="../images/developers03.png" style="position:relative;width:80;padding-left:0%;padding-right:0%;"></a><span style="position:absolute;top:70;left:345;margin:auto;"><i>Web Designer/Programmer</i></span></p>
+    <p class="myslides"><span style="position:absolute;top:70;right:350;margin:auto;"><i>Divine Joy Dublas</i></span><a href="http://www.facebook.com/joy.dubs" target="_blank"><img src="../images/developers04.png" style="position:relative;width:80;padding-left:0%;padding-right:0%;"></a><span style="position:absolute;top:70;left:345;margin:auto;"><i>Web Programmer/Coordinator</i></span></p>
+   </center>
+   </div>
+   <script>
+   var myIndex = 0;
+   carousel();
+
+   function carousel() {
+   var i;
+   var x = document.getElementsByClassName("myslides");
+   for (i = 0; i < x.length; i++) {
+   x[i].style.display = "none";  
+   }
+   myIndex++;
+   if (myIndex > x.length) {myIndex = 1}    
+   x[myIndex-1].style.display = "block";  
+   setTimeout(carousel, 4000);
+   }
+   </script>
+  </body>
+</html> 

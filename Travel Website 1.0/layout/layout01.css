@@ -1,0 +1,454 @@
+.fill01 img {
+     position:fixed;left:0;top:0;
+     width:100%;
+}
+
+.fill02 img {
+     position:fixed;left:0;top:0;
+     height:100%;
+}
+
+.fill03 img {
+     position:fixed;left:0;top:0;
+     height:100%;width:100%;
+}
+
+.fill04 img {
+     position:fixed;left:0;top:0;
+     height:120%;
+}
+
+.fill05 img {
+     position:fixed;left:0;bottom:0;
+     height:120%;
+}
+
+.fill06 img {
+     position:fixed;left:0;bottom:0;
+     width:120%;
+}
+
+.fill07 img {
+     position:fixed;left:0;bottom:0;
+     width:120%;
+	 min-height:100%;
+}
+
+.fill08 img {
+     position:fixed;
+	 left:0;
+	 right:0;
+	 top:0;
+	 margin:auto;
+	 width:100%;
+    filter: grayscale(5%);
+}
+
+.fill08 img:hover {
+     position:fixed;
+	 left:0;
+	 right:0;
+	 top:0;
+	 margin:auto;
+	 width:100%;
+	 filter:sepia(100%);
+}
+
+.home01 img {
+     position:fixed;left:25;top:12;
+	 height:50;width:50;
+}
+
+.links01 tt {
+     position:fixed;left:90;top:24;
+	 color:white;
+	 font-size:20;
+}
+
+.center01 p{
+     text-align:center;
+	 color:green;
+	 font-size:10;
+}
+
+#home01:hover {
+    content: url('../icons/home02.png');
+}
+
+/* We just costumized the code for this loader, we are not yet discussing these kinds of css */
+
+.showbox {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding:23%;
+}
+
+.loader {
+  position: relative;
+  margin: 0 auto;
+  width: 100px;
+}
+.loader:before {
+  content: '';
+  display: block;
+  padding-top: 100%;
+}
+
+.circular {
+  -webkit-animation: rotate 2s linear infinite;
+          animation: rotate 2s linear infinite;
+  height: 100%;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.path {
+  stroke-dasharray: 1, 200;
+  stroke-dashoffset: 0;
+  -webkit-animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+          animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+  stroke-linecap: round;
+}
+
+@-webkit-keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes dash {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -35px;
+  }
+  100% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -124px;
+  }
+}
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -35px;
+  }
+  100% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -124px;
+  }
+}
+@-webkit-keyframes color {
+  100%,
+  0% {
+    stroke: #d62d20;
+  }
+  40% {
+    stroke: #0057e7;
+  }
+  66% {
+    stroke: #008744;
+  }
+  80%,
+  90% {
+    stroke: #ffa700;
+  }
+}
+@keyframes color {
+  100%,
+  0% {
+    stroke: #d62d20;
+  }
+  40% {
+    stroke: #0057e7;
+  }
+  66% {
+    stroke: #008744;
+  }
+  80%,
+  90% {
+    stroke: #ffa700;
+  }
+}
+
+.email01 img {
+     position:fixed;right:13;top:13;
+     height:40;
+	 padding:4;
+	 border:0px solid black;
+}
+
+.email01 img:hover {
+     position:fixed;right:13;top:13;
+     height:40;
+	 padding:4;
+	 opacity:0.3;
+}
+
+.social01 img {
+     position:fixed;right:93;top:13;
+     height:40;
+	 padding:4;
+	 border:0px solid black;
+}
+
+.social01 img:hover {
+     position:fixed;right:93;top:13;
+     height:40;
+	 padding:4;
+	 border:0px solid black;
+	 opacity:0.3;
+}
+
+.line01 tt {
+     position:fixed;right:63;top:6;
+	 color:white;
+	 font-size:50;
+	 opacity:0.3;
+}
+
+.arrow01 img {
+     position:absolute;left:3%;top:0;bottom:0;
+	 margin:auto;
+     max-width:10%;
+}
+
+.banner01 img {
+     position:absolute;left:14%;top:0;bottom:0;
+	 margin:auto;
+     max-width:30%;
+}
+
+.headerlink01 tt {
+     position:fixed;left:85;top:19;
+	 text-align:center;
+	 color:white;
+	 font-size:20;
+     background:none;
+	 padding-left:7px;
+	 padding-right:7px;
+	 padding-top:7px;
+	 padding-bottom:7px;
+}
+
+.headerlink02 tt {
+     position:fixed;left:174;top:19;
+	 text-align:center;
+	 color:white;
+	 font-size:20;
+     background:none;
+	 padding-left:7px;
+	 padding-right:7px;
+	 padding-top:7px;
+	 padding-bottom:7px;
+}
+
+.headerlink03 tt {
+     position:fixed;left:307;top:19;
+	 text-align:center;
+	 color:white;
+	 font-size:20;
+     background:none;
+	 padding-top:7px;
+	 padding-bottom:7px;
+	 width:180;
+}
+
+.headbreak01 tt {
+     position:fixed;left:154;top:19;
+	 color:white;
+	 font-size:20;
+	 width:20;
+     background:none;
+	 padding-top:7px;
+	 padding-bottom:7px;
+}
+
+.headbreak02 tt {
+     position:fixed;left:287;top:19;
+	 color:white;
+	 font-size:20;
+	 width:20;
+     background:none;
+	 padding-top:7px;
+	 padding-bottom:7px;
+}
+
+.headerlink01 tt:hover {
+     position:fixed;left:85;top:19;
+	 text-align:center;
+	 color:rgba(241,222,26,0.9);
+	 font-size:20;
+     background:none;
+	 padding-left:7px;
+	 padding-right:7px;
+	 padding-top:7px;
+	 padding-bottom:7px;
+	 border:solid black 0px;
+}
+
+.headerlink02 tt:hover {
+     position:fixed;left:174;top:19;
+	 text-align:center;
+	 color:rgba(241,222,26,0.9);
+	 font-size:20;
+     background:none;
+	 padding-top:7px;
+	 padding-bottom:7px;
+	 padding-left:7px;
+	 padding-right:7px;
+	 border:solid black 0px;
+}
+
+.headerlink03 tt:hover {
+     position:fixed;left:307;top:19;
+	 text-align:center;
+	 color:rgba(241,222,26,0.9);
+	 font-size:20;
+     background:none;
+	 padding-top:7px;
+	 padding-bottom:7px;
+	 width:180;
+	 border:solid black 0px;
+}
+
+.travelmenu01 ul {
+     position:fixed;top:0;bottom:0;left:-30;right:0;
+	 list-style:none;
+	 overflow:auto;
+     float:none;
+	 max-height:1165px;
+}
+
+.travelmenu01 li {
+	 float:right;
+}
+
+
+.travelmenu01 img {
+     max-width:95%;
+	 border:solid black 1px;
+	 margin:2%;
+     color:black;
+     animation: fadein 0.5s;
+     -webkit-animation: fadein 0.5s;
+}
+
+@-webkit-keyframes fadein { 
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+	
+}
+
+/* We just costumized the code for this scrollbar, we are not yet discussing these kinds of css */
+
+::-webkit-scrollbar {
+    width: 12;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.8);*/ 
+    -webkit-border-radius: 10px;
+    background-color:none;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background:rgba(0,0,0,0.5); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+#wait {
+     color:black;
+	 font-size:20;
+	 position:fixed;bottom:0;left:20;
+}
+
+#loadinghome01{
+     color:black;
+	 font-size:20;
+	 position:fixed;bottom:10;left:20;
+}
+
+#trythis01:hover {
+     content: url('../travels/trythis01.png');
+     max-width:95%;
+	 border:solid black 1px;
+	 margin:2%;
+     color:black;
+     animation: fadein 0.5s;
+     -webkit-animation: fadein 0.5s;
+}
+
+@-webkit-keyframes fadein { 
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+	
+.menufooter01 img{
+     position:fixed;left:0;right:0;top:1205;
+	 overflow:auto;
+	 margin:auto;
+     width:88.5%;
+	 border:1px solid black;
+}
+
+.logo01 img {
+     position:relative;
+	 display:inline-block;
+	 width:20%;
+     filter: brightness(110%);
+	 float:left;
+	 margin-left:40;
+	 margin-right:10;
+	 margin-top:27;
+	 margin-bottom:8;
+	 top:-80;
+     border-style:dashed;
+	 border-width:1px;
+	 border-radius:10px;
+}
+
+.christmas02 p{
+     position:fixed;
+	 top:30;
+	 font-family: Copper Black;
+	 font-size: 50;
+	 margin-left:20;
+     text-shadow:2px 2px 2px white;	 
+}

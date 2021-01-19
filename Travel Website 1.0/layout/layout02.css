@@ -1,0 +1,229 @@
+.cover01 ul {
+     list-style:none;
+	 width:96%;
+	 margin-right:10%;
+	 position:relative;left:-4%;right:-10%;
+}
+
+.cover01 li {
+     display:table-cell;
+     vertical-align:middle;
+     border:1px solid d;
+}
+
+.cover01 img {
+     width:100%;
+}
+
+.joyce01 iframe {
+     display:inline;
+     border:0px solid white;
+	 margin:9;
+}
+
+.joyce01 fieldset {
+	 position:absolute;left:0;right:0;
+	 margin:auto;
+	 width:90%;
+     background-color:lightgrey;
+}
+
+.joyce01 ul {
+    list-style:none;
+	position:relative;
+}
+
+.joyce01 li {
+	float:center;
+	position:relative;left:-29;
+}
+
+.joyce02 iframe {
+     display:inline;
+     border:0px solid white;
+	 margin:9;
+}
+
+.joyce02 fieldset {
+	 position:absolute;left:0;right:0;
+	 margin:auto;
+	 width:90%;
+     background-color:lightgrey;
+}
+
+.joyce02 ul {
+    list-style:none;
+	position:relative;
+	margin-top: 110;
+}
+
+.joyce02 li {
+	float:center;
+	position:relative;left:-29;
+}
+
+.joyce03 iframe {
+     display:inline;
+     border:0px solid white;
+	 margin:9;
+}
+
+.joyce03 fieldset {
+	 position:absolute;left:0;right:0;
+	 margin:auto;
+	 width:90%;
+     background-color:lightgrey;
+}
+
+.joyce03 ul {
+    list-style:none;
+	position:relative;
+	margin-top: 110;
+	top:-70;
+}
+
+.joyce03 li {
+	float:center;
+	position:relative;left:-29;
+}
+
+@-webkit-keyframes fadein { 
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+	
+}
+
+/* We just costumized the code for this scrollbar, we are not yet discussing these kinds of css */
+
+::-webkit-scrollbar {
+    width: 12;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.8);*/ 
+    -webkit-border-radius: 10px;
+    background-color:none;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background:rgba(0,0,0,0.5); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+#wait {
+     color:black;
+	 font-size:20;
+	 position:fixed;bottom:0;left:20;
+}
+
+#loadinghome01{
+     color:black;
+	 font-size:20;
+	 position:fixed;bottom:10;left:20;
+}
+
+#trythis01:hover {
+     content: url('../travels/trythis01.png');
+     max-width:95%;
+	 border:solid black 1px;
+	 margin:2%;
+     color:black;
+     animation: fadein 0.5s;
+     -webkit-animation: fadein 0.5s;
+}
+
+@-webkit-keyframes fadein { 
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+#plusBtn {
+     display:none;
+	 position:fixed;right:15;bottom:5;
+}
+
+#minusBtn {
+     display:none;
+	 position:fixed;right:40;bottom:5;
+}
+
+.bangsnijoyce01 i {
+	 position:fixed;left:5;right:5;top:5;bottom:5;
+	 text-align:justify;
+}
+
+.bangsnijoyce02 i {
+	 position:fixed;left:5;right:5;top:40;bottom:5;
+	 text-align:justify;
+}
+
+.bangsnijoyce02 h2 {
+	 position:fixed;left:5;;top:-25;
+	 text-align:justify;
+}
+
+.traveling01 img {
+     position:fixed;
+	 bottom:0;
+	 right:185;
+	 width:100;
+}
+
+.hottoursbanner01 tt {
+     color:yellow;
+	 text-indent:50px;
+     font-family:Courier New;
+	 padding-top:40px;
+	 padding-left:130px;
+	 padding-right:130px;
+	 font-size:50;
+	 background:none;
+	 border-style:dashed;
+	 border-color:white;
+	 border-width:1;
+	 display:none;
+
+}
+
+.header01 img {
+     position:fixed;
+	 top:-40;
+	 left:1%;
+	 width:98%;
+	 height:100;
+	 border:solid none 1px;
+	 border-radius:10px;
+}
+
+.header02 img{
+     position: fixed;
+	 left:30;
+	 top:4;
+	 top:6;
+	 height:90;
+	 border:solid grey 5px;
+	 border-radius:100%;
+}
+
+.header03 blink {
+     position: fixed;
+	 top:5;
+     color:yellow;
+	 text-indent:50px;
+     font-family:Courier New;
+	 font-size:50;
+	 width:100%;
+} 

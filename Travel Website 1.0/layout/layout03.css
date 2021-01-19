@@ -1,0 +1,243 @@
+.ambilismomagpalit01 img {
+	 height:220;
+	 width:90%;
+	 position:absolute;
+	 top:-10;
+	 left:0;
+	 right:0;
+	 margin:auto;
+	 border-radius:10px;
+}
+
+.dikaniyamahal01 {
+	 width: 140%;
+	 height: 100;
+	 background: white;
+	 position:fixed;
+	 bottom:10;
+	 left:0;
+}
+
+.dikaniyamahal01:before {
+	 content: "";
+	 display: block;
+	 position: absolute;
+	 top: -10px;
+	 width: 100%;
+	 height: 10px;
+	 background:
+     linear-gradient(
+     45deg, transparent 33.333%,
+     white 33.333%, white 66.667%,
+     transparent 66.667%
+     ),
+     linear-gradient(
+     -45deg, transparent 33.333%,
+     white 33.333%, white 66.667%,
+     transparent 66.667%
+     );
+     background-size: 20px 40px;
+}
+
+.map01 iframe {
+	 width:100%;
+	 height:100%;
+	 border:solid black 1px;
+	 border-radius:10px;
+     background-color:#66b3ff;
+}
+
+.req01 iframe {
+	 width:100%;
+	 height:100%;
+	 border:solid black 1px;
+	 border-radius:10px;
+}
+
+
+/* We just costumized the code for this scrollbar, we are not yet discussing these kinds of css */
+
+::-webkit-scrollbar {
+    width: 12;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.8);*/ 
+    -webkit-border-radius: 10px;
+    background-color:none;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background:rgba(0,0,0,0.5); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+#wait {
+     color:black;
+	 font-size:20;
+	 position:fixed;bottom:0;left:20;
+}
+
+#loadinghome01{
+     color:black;
+	 font-size:20;
+	 position:fixed;bottom:10;left:20;
+}
+
+#trythis01:hover {
+     content: url('../travels/trythis01.png');
+     max-width:95%;
+	 border:solid black 1px;
+	 margin:2%;
+     color:black;
+     animation: fadein 0.5s;
+     -webkit-animation: fadein 0.5s;
+}
+
+@-webkit-keyframes fadein { 
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+.traveling01 img {
+     position:absolute;
+	 top:0;
+	 bottom:0;
+	 right:0;
+     left:0;
+	 margin:auto;
+	 width:40%;
+}
+
+.table01 table {
+     position:relative;
+	 top:0;
+	 left:0;
+	 width:100%;
+	 height:600;
+}
+
+.list01 iframe {
+     position:absolute;
+	 top:0;
+	 width:100%;
+	 height:100%;
+     background-color:#66b3ff;
+	 border:none;
+}
+
+.processing01 img {
+     position:absolute;
+	 top:0;
+	 bottom:0;
+	 right:0;
+	 left:0;
+	 margin:auto;
+	 width:40;
+}
+
+.processcomplete01 img {
+     position:absolute;
+	 top:0;
+	 bottom:0;
+	 right:0;
+	 left:0;
+	 margin:auto;
+	 width:100;
+}
+
+.processcomplete01 tt {
+     position:absolute;
+	 top:230;
+	 bottom:0;
+	 right:0;
+	 left:0;
+	 margin:auto;
+	 width:200;
+}
+
+.profile01 img{
+     position:absolute;
+	 top:80;
+	 left:60;
+	 margin:auto;
+	 border-radius:10px;
+	 height:130;
+}
+
+.profile02 img{
+     position:absolute;
+	 top:70;
+	 left:50;
+	 margin:auto;
+	 border-radius:10px;
+	 height:150;
+	 opacity:0.8;
+}
+
+.cover01 img {
+	 height:220;
+	 width:87%;
+	 position:absolute;
+	 top:-40;
+	 left:0;
+	 right:0;
+	 margin:auto;
+	 border-radius:10px;
+}
+
+.cover02 img {
+	 height:220;
+	 width:90%;
+	 position:absolute;
+	 top:-30;
+	 left:0;
+	 right:0;
+	 margin:auto;
+	 border-radius:10px;
+	 opacity:0.8;
+}
+
+.travelname01 tt {
+     position:relative;
+	 top:120;
+	 left:210;
+	 color:white;
+	 font-size:20;
+     text-shadow:2px 2px 2px black;
+}
+
+.travelinfo01  iframe {
+     position:fixed;
+	 top:235;
+	 right:5%;
+	 margin:auto;
+	 width:55%;
+	 background-color:none;
+     border-style:dashed;
+	 border-width:1px;
+	 border-radius:10px;
+     height:110%;
+	 max-height:340;
+}
+
+#info01 {
+    position:fixed;
+	top:6px;
+	left:20;
+	margin:auto
+}
+
+#info01 tt{
+	font-size:10;
+	color:black;
+}

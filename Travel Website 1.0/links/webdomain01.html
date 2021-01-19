@@ -1,0 +1,44 @@
+<!--Coded by John Rovic Lalusin on September 15, 2017 Last Modified on September 15, 2017-->
+<html>
+ <head>
+  <title>TRAVEL WEBSITE</title>
+ </head>
+  <style>
+  body {
+  background:url('../images/site-background-pattern-07.jpg');
+  }
+  
+  #masayahin01 {
+  position:fixed;
+  top:-1;
+  font-size:25;
+  left:0;
+  background-color:black;
+  border-radius:10px;
+  padding-top:1;
+  padding-bottom:1;
+  padding-left:10;
+  padding-right:10;
+  color:yellow;
+  }
+  </style>
+  <body>
+   <div id="masayahin01" style="">
+	 <i><tt>LAKBAYPINAS.COM<tt></i>
+
+   
+   <span id="arrow">&gt;</span>
+   </div>   
+   <script>
+   var arrows = window.setInterval( function() {
+   var wait = document.getElementById("arrow");
+   if ( wait.innerHTML.length > 9 ) 
+        wait.innerHTML = "";
+   else 
+        wait.innerHTML += "&gt;";
+    }, 500);
+  </script>
+   
+  </body>
+</html> 
+

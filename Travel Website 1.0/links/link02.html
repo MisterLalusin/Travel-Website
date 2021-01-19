@@ -1,0 +1,66 @@
+<!--Coded by John Rovic Lalusin on September 7, 2017 Last Modified on September 27, 2017-->
+<html>
+ <head>
+  <title>TRAVEL WEBSITE</title>
+  <link rel="stylesheet" href="../layout/layout02.css">
+ </head>
+  <body style="margin:0;padding:0;position:absolute;left:0;right:0;margin:auto;max-width:1000;min-width:700;">
+   <div class="joyce01">
+    <center>   
+    <ul>
+	 <li>
+	 <iframe src="webdomain01.html" style="height:30px;width:94%;border:solid black 1px;border-radius:10px;"></iframe>
+	 </li>	
+     <li>
+	 <iframe src="slideshow01.html" style="height:230px;width:600px;"></iframe>
+	 <iframe src="homevideo01.html" style="height:230px;width:290px;"></iframe>
+	 <iframe src="contact01.html" style="height:230px;width:290px;border:solid grey 1px;border-radius:10px;"></iframe>
+	 <iframe src="homeparagraph01.html" style="height:230px;width:600px;"></iframe>
+	 </li>
+	 <li>
+	 <iframe src="galapamore01.html" style="height:30px;width:94%;"></iframe>
+	 </li>
+     <li>
+	 <iframe src="homefeature01.html" style="height:370px;width:600px;"></iframe>
+	 <iframe src="sign-in01.html" style="height:370px;width:290px;"></iframe>
+	 <iframe src="gallery01.html" style="height:370px;width:290px;border-style:dashed;border-width:1px;border-radius:10px;border-color:black;"></iframe>
+	 <iframe src="gallery02.html" style="height:370px;width:290px;border-style:dashed;border-width:1px;border-radius:10px;border-color:black;"></iframe>
+	 <iframe src="gallery03.html" style="height:370px;width:290px;border-style:dashed;border-width:1px;border-radius:10px;border-color:black;"></iframe>
+	 </li>
+	 <li>
+	 <iframe src="developers01.html" style="height:140px;width:600px;margin-bottom:40;"></iframe>
+	 </li>
+    </ul>
+	</center>
+   </div>
+   <div class="zoom01"><!--this feature is for users using a smaller device-->
+   <script src="../function/zoom01.js"></script>
+    <script>
+        var currffzoom = 1;
+        var curriezoom = 100;
+
+        function plus(){
+            //alert('sad');
+                var step = 0.02;
+                currffzoom += step;
+                $('body').css('moztransform','scale(' + currffzoom + ')');
+                var stepie = 2;
+                curriezoom += stepie;
+                $('body').css('zoom', ' ' + curriezoom + '%');
+
+        };
+        function minus(){
+            //alert('sad');
+                var step = 0.02;
+                currffzoom -= step;
+                $('body').css('moztransform','scale(' + currffzoom + ')');
+                var stepie = 2;
+                curriezoom -= stepie;
+                $('body').css('zoom', ' ' + curriezoom + '%');
+        };
+    </script>
+	<a id="minusbtn" onclick="minus()"><button>-</button></a>
+    <a id="plusbtn" onclick="plus()"><button>+</button></a>
+   </div>
+  </body>
+</html> 
